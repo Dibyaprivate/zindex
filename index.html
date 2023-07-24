@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: black;
+        }
+        .container{
+          height: 200px;
+          width: 200px;
+          position: relative;
+          left: 20%; 
+          top: 20%;
+          box-shadow: 5px 5px 100px 5px blue;
+          /* border: 2px dashed red; */
+          /* background-color: antiquewhite; */
+          text-align: center;
+          color: rgb(213, 228, 213);
+          font-weight: 800;
+        }
+  .child{
+    box-shadow: 2px 2px 12px 2px rgb(68, 133, 19);
+  }
+     
+     .chear1{
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+        z-index: 1;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+ }
+     
+     .chear2{
+        background-color: rgb(44, 239, 22);
+        z-index: 2;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 20%;
+        left: 20%;
+     }
+     
+     .chear3{
+        background-color: rgb(232, 11, 48);
+        z-index: 3;
+        position: absolute;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 30%;
+        left: 30%;
+     }
+     .chear4{
+        background-color: rgb(78, 16, 180);
+        z-index: 4;
+        position: absolute;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 40%;
+        left: 40%;
+     }
+
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="child chear1">banty</div>
+    <div class="child chear2">banty</div>
+    <div class="child chear3">banty</div>
+    <div class="child chear4">banty</div>
+   </div>
+
+</body>
+</html>
